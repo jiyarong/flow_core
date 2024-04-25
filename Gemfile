@@ -13,8 +13,9 @@ gemspec
 # Git. Remember to move these dependencies to your gemspec before releasing
 # your gem to rubygems.org.
 
-gem "sqlite3", "~> 1.4"
+# gem "sqlite3", "~> 1.4"
 # gem "pg", "~> 1.2"
+gem 'pg', '~> 1.5.4'
 
 # To use a debugger
 gem "byebug", group: %i[development test]
@@ -51,3 +52,4 @@ gem "turbolinks"
 gem "selectize-rails"
 
 gem "graphviz"
+gem "sprockets-rails"
